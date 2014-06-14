@@ -32,5 +32,6 @@
     int z = x + y;
     _lblResult.text = [NSString stringWithFormat:@"%d", z];
     
+    
 }
 @end
