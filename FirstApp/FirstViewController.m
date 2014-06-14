@@ -31,5 +31,6 @@
     int y = [_txtSecondOp.text intValue];
     int z = x + y;
     _lblResult.text = [NSString stringWithFormat:@"%d", z];
+    
 }
 @end
