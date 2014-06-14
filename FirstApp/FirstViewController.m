@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)calcResult:(id)sender {
+    int x = [_txtFirstOp.text intValue];
+    int y = [_txtSecondOp.text intValue];
+    int z = x + y;
+    _lblResult.text = [NSString stringWithFormat:@"%d", z];
+}
 @end

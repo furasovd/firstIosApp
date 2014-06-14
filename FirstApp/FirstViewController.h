@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txtFirstOp;
+@property (weak, nonatomic) IBOutlet UITextField *txtSecondOp;
+@property (weak, nonatomic) IBOutlet UILabel *lblResult;
+- (IBAction)calcResult:(id)sender;
 
 @end

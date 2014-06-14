@@ -34,6 +34,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calcResult:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="LWk-HN-T5v"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VES-gD-YPz">
                                 <rect key="frame" x="20" y="187" width="42" height="21"/>
@@ -46,6 +49,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="u1e-5L-l1D"/>
+                    <connections>
+                        <outlet property="lblResult" destination="VES-gD-YPz" id="oYY-At-fpo"/>
+                        <outlet property="txtFirstOp" destination="SmT-T7-oVw" id="MO8-3P-YKk"/>
+                        <outlet property="txtSecondOp" destination="OW0-9x-UeE" id="RCW-Sk-4DO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
